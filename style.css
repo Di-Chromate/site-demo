@@ -351,7 +351,7 @@ h2 {
 
         .hero-image {
           min-height: 100vh;
-          background: url(/workphotos/photo1.jpg), rgba(0, 0, 0, 0.6) scroll;
+          background: url(workphotos/photo1.jpg), rgba(0, 0, 0, 0.6) scroll;
           background-blend-mode: multiply;
           animation: slideshow 20s 2s infinite;
           background-repeat: no-repeat;
@@ -363,27 +363,27 @@ h2 {
 
         @keyframes slideshow {
           0% {
-            background-image: url(/workphotos/photo1.jpg);
+            background-image: url(workphotos/photo1.jpg);
           }
 
           20% {
-            background-image: url(/workphotos/photo2.jpg);
+            background-image: url(workphotos/photo2.jpg);
           }
 
           40% {
-            background-image: url(/workphotos/photo3.jpg);
+            background-image: url(workphotos/photo3.jpg);
           }
 
           60% {
-            background-image: url(/workphotos/photo4.jpg);
+            background-image: url(workphotos/photo4.jpg);
           }
 
           80% {
-            background-image: url(/workphotos/photo5.jpg);
+            background-image: url(workphotos/photo5.jpg);
           }
 
           100% {
-            background-image: url(/workphotos/photo1.jpg);
+            background-image: url(workphotos/photo1.jpg);
           }
         }
 
